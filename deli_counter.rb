@@ -20,6 +20,8 @@ def take_a_number
   puts "You are number #{number}"
 end
 
+puts take_a_number
+
 def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
