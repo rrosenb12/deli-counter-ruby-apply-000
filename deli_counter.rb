@@ -17,7 +17,7 @@ end
 $number = 0
 
 def take_a_number
-  $number =+ 1
+  $number += 1
   puts "You are number #{$number}"
 end
 
