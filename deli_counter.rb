@@ -14,9 +14,10 @@ def line(katz_deli)
   end
 end
 
+$number = 0
+
 def take_a_number
-  number = 0
-  number =+ 1
+  $number =+ 1
   puts "You are number #{number}"
 end
 
